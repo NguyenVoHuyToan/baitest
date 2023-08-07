@@ -28,13 +28,13 @@
 
 #rightbox {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background: #30384D;
     border-radius: 10px;
-    width: 350px;
-    height: 400px;
-    padding-bottom: 100px;
+    width: 30%;
+    padding-top: 10px;
     margin-left: 50px;
 }
 
@@ -51,7 +51,21 @@
 #container2{
     display: flex;
     justify-content: end;
-    width: 80%;
-    padding: 10px, 10px, 10px, 10px;
+    padding-right: 280px;
 }
+
+#innerbox1{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+#innerbox4{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    padding-top: 10px;
+    font-size: x-small;
+}
+
 
